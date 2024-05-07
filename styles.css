@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#field {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    background: #0a0;
+    border: 2px solid #060;
+    cursor: pointer;  /* Indicates the field is clickable */
+}
+
+#goalkeeper {
+    position: absolute;
+    top: 80px;
+    left: 130px;
+    width: 40px;
+    height: 40px;
+    background: blue;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+#ball {
+    position: absolute;
+    bottom: 10px;
+    left: 140px;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+#goal {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #fff;
+    border-bottom: none;
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+}
